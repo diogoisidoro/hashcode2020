@@ -41,4 +41,4 @@ def run():
         print ("books ids array: ", books_ids)
         
 if __name__ == "__main__" :
-    run()
+    read_input()
