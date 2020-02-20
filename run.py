@@ -12,7 +12,7 @@ signed_l = [
     ]
 """
 
-def output():
+def output(signed_l):
     print(len(signed_l))
     for l in signed_l:
         print("%d %d" % (l[0], len(l[1])))
