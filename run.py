@@ -1,4 +1,4 @@
-def run():
+def read_input():
     books_input = input()
     books = [int(x) for x in books_input.split()]
     print ("books array: ", books)
@@ -19,4 +19,4 @@ def run():
         print ("books ids array: ", books_ids)
 
 if __name__ == "__main__" :
-    run()
+    read_input()
