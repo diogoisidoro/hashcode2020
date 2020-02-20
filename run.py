@@ -30,12 +30,16 @@ def read_input():
     books = [int(x) for x in books_input.split()]
 
     total_libraries = world[1] 
+    libraries = list()
     for x in range(total_libraries):
         libraries_input = input()
-        libraries = [int(x) for x in libraries_input.split()]
-
         books_ids_input = input()
+        #[n_book, day_sign, n_ship, [books_id]]
+        lib = [int(x) for x in libraries_input.split()]
         books_ids = [int(x) for x in books_ids_input.split()]
+        lib.append(books_id)
+
+        libraries.append(lib)
         
 
 if __name__ == "__main__" :
